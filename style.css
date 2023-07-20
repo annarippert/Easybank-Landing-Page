@@ -1,0 +1,280 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+ 
+/*Styles for whole page*/
+*{
+  font-family: sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  overflow-x: hidden;
+}
+
+/*style for links*/
+a{
+  padding-right: 30px
+}
+
+/*style for h1 texts*/
+h1{
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+/*style for h2 texts*/
+
+h2{
+  font-weight:300;
+  font-size: 35px;
+}
+
+/* header 4 styling */
+h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+
+/*style for all buttons*/
+.button{
+  background-image: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
+  padding: 10px 20px;
+  border-radius: 30px;
+  color:white;
+  font-weight: bolder;
+  width:300px;
+  white-space: nowrap;
+  transition: background-image 2s;
+}
+
+/*style for all buttons hover state*/
+.button:hover{
+  background-image: linear-gradient(to right, #9ADFAC, #94D3DF);
+}
+
+/*header tag*/
+header {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/*Style for logo and menu*/
+.main-header {
+  display: flex;
+  background-color: white;
+  text-decoration: none;
+  margin: 2% 5% 2% 5%;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/*menu items*/
+#menu {
+  width: 500px;
+  text-align: center;
+  background-color: white;
+  
+}
+
+/*menu item links*/
+#menu-items a{
+  color:hsl(233, 8%, 62%)
+}
+
+/*menu item links hover interaction*/
+#menu-items a:hover{
+  color:black;
+}
+
+/*main container*/
+#main-section{
+  display:flex;
+  margin-left:5%;
+  margin-right:5%;
+  width:35%;
+  height:700px;
+  
+}
+
+/*main container text*/
+#main-text{
+  margin-top: auto;
+  margin-bottom: auto;
+  color: hsl(233, 26%, 24%);
+  font-weight:400;
+  font-size:20px;
+}
+
+/*main container h1 text*/
+#main-text h1{
+  width:70%;
+}
+
+/*main container paragraph text*/
+#main-text p{
+  width:80%;
+  color: hsl(233, 8%, 62%);
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-weight:300;
+  font-size:18px;
+}
+
+/*image container*/
+#main-image{
+  float:right !important;
+  width:100%;
+  position:relative;
+  margin-right:-95% !important;
+  margin-top:-10% !important;
+}
+
+/*colorful background image*/
+#background-image{
+  overflow:hidden;
+  margin-left:-50%;
+  margin-top:-40%;
+  z-index: -1;
+  position:absolute;
+}
+
+/*image of phones*/
+#mockup-image {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  transform: translate(50%, -20%);
+  z-index: 2;
+}
+
+/*middle section container*/
+.middle {
+  background-color:hsl(220, 16%, 96%);
+  position: relative;
+  z-index: 1;
+  padding: 5% 0% 5% 0%; 
+}
+
+/*middle content*/
+.middle-content{
+  margin-left:5%;
+  margin-right:5%;
+}
+/*middle content text styles*/
+.middle-content h2, .middle-content p{
+  padding-bottom:3%;
+}
+/*middle content paragaph styles*/
+.middle-content p{
+  color: hsl(233, 8%, 62%);
+  font-weight: 300;
+  font-size:18px;
+}
+
+/*Middle content row of items container*/
+.sections{
+  padding-top:2%;
+  padding-bottom:5%;
+  display:flex;
+  justify-content: space-between;
+}
+
+/*Article sections background*/
+.article-section{
+  background-image: linear-gradient(to bottom, hsl(0, 0%, 100%) , hsl(0, 0%, 98%));
+
+}
+/*Article sections container*/
+.articles{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+/*Article sections h2 styles*/
+.articles h2{
+  padding-bottom:3%;
+}
+
+/*Extra styles for card component*/
+.cards{
+  display:flex;
+  justify-content: space-between;
+}
+
+
+/* footer */
+footer{
+  background-color:hsl(233, 26%, 24%);
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+/* footer items*/
+.footer-items{
+  display:flex;
+  justify-content:space-between;
+  margin-left:5%;
+  margin-right:5%;
+  color:white;
+}
+
+/* styles for icons in footer */
+.footer-icons{
+  display:flex;
+  justify-content:space-between;
+  margin-top:35%;
+}
+
+/* footer tbale of links */
+table{
+  display:flex;
+  justify-content:center;
+  border-collapse: separate;
+  border-spacing: 120px 15px;
+}
+
+.left-col-footer img{
+  margin-bottom: 5%;
+}
+
+.right-col-footer{
+  text-align:right;
+}
+
+.right-col-footer p{
+  margin-top:25%;
+  color: hsl(233, 8%, 62%);
+}
+
+
+/* footer logo styling*/
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+/* @media screen and (max-width: 375px) {
+
+} */
