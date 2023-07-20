@@ -2,7 +2,7 @@
 
 This is my solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.  
 
-![](./screenshot.png)
+![screenshot of desktop design](./design/desktop-design.jpg)
 
 ## Built with
 
